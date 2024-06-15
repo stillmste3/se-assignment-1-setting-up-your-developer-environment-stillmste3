@@ -51,4 +51,13 @@ Submit your document and GitHub repository link through the designated platform 
 - Clarity of reflection on challenges and solutions encountered.
 - Adherence to submission guidelines and deadlines.
 
+ANSWERS:
+
+Step 1: dowmload an operating system. I used the one that came with my pc which is Windows 11. But if you wish to use a different OS you could just download the one you desire by simply searching for it then download it.
+
+Step 2: Install an IDE.
+- To install vs code on windows, search for vs code on the web then click the download button
+![alt text](image.png)
+
+
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.

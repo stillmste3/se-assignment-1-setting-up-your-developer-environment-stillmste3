@@ -82,6 +82,33 @@ Step 4: Download python
 
 - To create a virtual environment you simply just type python -m venv env or python -m virtualenv env in the directory you want to create the virtual environment. But first you will have to install virtual environment by typing pip install virtualenv. After installing and creating it you can activate it by typing source\env\Scripts\activate and deactivate it by typing deactivate.
 
+Step 5: Install MySQL
+- Go to the official MySql website and download the MSI version. Then click on No thanks, just start my download when you see this page
+![alt text](image-9.png)
 
+- When the download finishes open the file and read through the license the agree and click next. After clicking next you will be asked to choose the setup type. I chose the custom one then clicked next.
+![alt text](image-10.png)
+
+- Now choose the products you want to install by clicking on them. Install workbench, shell and the server then click next
+![alt text](image-11.png)
+
+- Click on execute and wait for it to finish installing then click on next
+![alt text](image-12.png) ![alt text](image-13.png)
+
+- Leave the settings on default on type and networking and click on next and set up your password
+![alt text](image-14.png)
+
+- Now click on next till you finish installing mysql. When it is done installing, go to your disk then go to program files, locate mysql and go into the bin folder of the server folder and copy the link.
+
+- After copying the link go to environment variables, click on path on system variables and click new and paste the link/text of the folder you copied.
+
+- Then open your cmd and type mysql --version then type mysql -u root -p and enter your password
+![alt text](image-15.png) ![alt text](image-16.png)
+
+- From here you can use mysql
+![alt text](image-17.png)
+
+- You can also create a database in mysql workbench
+![alt text](image-18.png)
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.

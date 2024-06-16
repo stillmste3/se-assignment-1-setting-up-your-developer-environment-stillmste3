@@ -57,7 +57,31 @@ Step 1: dowmload an operating system. I used the one that came with my pc which 
 
 Step 2: Install an IDE.
 - To install vs code on windows, search for vs code on the web then click the download button
-![alt text](image.png)
+![alt text](image-2.png)
+
+- After clicking the download link you'll be directed inside the vscode website where you'll click the download button for windows and vscode will start to download.
+![alt text](image-1.png)
+
+Step 3: Install Git and github.
+- Go to the official Git website and select the Windows version. The website will automatically detect your OS version and recommend the correct installer.
+![alt text](image-3.png)
+
+- Locate the dowloaded file on your downloads and click it to run the git setup.
+- The installer will open with a license agreement, read through it then click next to proceed. Choose the folder where you want to save git then click next again.
+- Choose the components you want to install, then click next. The installer offers several options like a Git Bash, a Git GUI, and integration with Windows Explorer, I left them at their default settings the clicked next.
+- After clicking next on every step after leaving everything on it's default settings, I clicked finish to finish setting up git then opened gitbash to configure git.
+- When configuring type git config --global user.name "user name" then git config –global user.email "email address" to set up your username and email address. You can see your git configure list by typing git config --list when you want to see your settings.
+![alt text](image-4.png)
+
+Step 4: Download python
+- To download python go to python.org and download the latest version for Windows.
+- After downloading python, go to App execution aliases because they will interfere with python and not allow you to use some of it's versions. To fix this turn them off by first searching for the app execution alias control panel from the Start menu
+![alt text](image-5.png) ![alt text](image-6.png)
+
+- After turning them off you can check pip version by typing pip --version or pip -v in the terminal. If it says module does not exist then you have to download pip. I downloaded pip with the help of AI by following it's precise instructions. Then I had pip. You can also use stackoverflow when you are stuck with somwthing.
+
+- To create a virtual environment you simply just type python3 -m venv env or python3 -m virtualenv env in the directory you want to create the virtual environment. But first you will have to install virtual environment by typing pip install virtualenv
+
 
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
